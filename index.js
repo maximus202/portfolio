@@ -15,10 +15,23 @@ $(document).ready(function () {
         ],
     }
 
+    function renderProjectsMenuCode() {
+        return `
+        <h3>
+            ProjectName
+        </h3>
+        <img alt="">
+            Screenshot
+        </img>
+        <button>
+            View
+        </button>`
+    }
 
     function displayProjectsMenu() {
         console.log('displayProjectsMenu() ran');
         //User story: The user needs to be able to see the projects menu where it'll display all the projects.
+        $('.js-projects').html(renderProjectsMenuCode());
     }
 
     function displayProjectDetailsButton() {
