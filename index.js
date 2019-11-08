@@ -1,4 +1,21 @@
 $(document).ready(function () {
+    const STORE = {
+        projects: [
+            {
+                name: 'J.K. Rowling-Level Harry Potter Quiz',
+                desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
+                tech: 'HTML, CSS, JavaScript, jQuery',
+                demo: 'empty',
+                code: 'empty',
+                screenshot: {
+                    src: 'empty',
+                    alt: 'empty'
+                },
+            },
+        ],
+    }
+
+
     function displayProjectsMenu() {
         console.log('displayProjectsMenu() ran');
         //User story: The user needs to be able to see the projects menu where it'll display all the projects.
