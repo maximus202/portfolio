@@ -4,7 +4,6 @@ $(document).ready(function () {
             {
                 name: 'J.K. Rowling-Level Harry Potter Quiz',
                 desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
-                tech: 'HTML, CSS, JavaScript, jQuery',
                 demo: 'https://maximus202.github.io/harry-potter-quiz/',
                 code: 'https://github.com/maximus202/harry-potter-quiz',
                 screenshot: {
@@ -13,9 +12,8 @@ $(document).ready(function () {
                 },
             },
             {
-                name: 'J.K. Rowling-Level Harry Potter Quiz',
+                name: 'J.K. Rowling-Level Harry Potter Quiz 2',
                 desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
-                tech: 'HTML, CSS, JavaScript, jQuery',
                 demo: 'https://maximus202.github.io/harry-potter-quiz/',
                 code: 'https://github.com/maximus202/harry-potter-quiz',
                 screenshot: {
@@ -24,64 +22,43 @@ $(document).ready(function () {
                 },
             },
         ],
+        technologies: [
+            { html: 'link' },
+            { css: 'link' },
+            { javascript: 'link' },
+            { jquery: 'link' },
+        ],
     }
 
 
-    function renderProjectsMenuHTML(i) {
-        console.log('renderProjectsMenuHTML() ran');
+    function generateProjects(i) {
+        console.log('generateProjects() ran');
         return `
+                <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}">
+                </img>
                 <h3>
                     ${STORE.projects[i].name}
                 </h3>
-                <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}">
-                </img>
-                <button>
-                    View
-                </button>`;
+
+                <p>
+                ${STORE.projects[i].desc}
+                </p>
+
+                `;
     }
 
-    function displayProjectsMenu() {
-        console.log('displayProjectsMenu() ran');
+    function displayProjects() {
+        console.log('displayProjects() ran');
         //User story: The user needs to be able to see the projects menu where it'll display all the projects.
         for (let i = 0; i < STORE.projects.length; i++) {
-            $('.js-projects').append(renderProjectsMenuHTML(i));
+            $('.js-projects').append(generateProjects(i));
         }
-    }
-
-    function displayProjectDetailsButton() {
-        console.log('displayProjectDetailsButton() ran');
-        //User story: The user clicks on a project to see more details about it.
-    }
-
-    function displayProjectDetailsScreen() {
-        console.log('displayProjectDetailsScreen() ran');
-        //User story: The user is presented with a screen that shows details of the project they're viewing.
-    }
-
-    function displaySeeCodeButton() {
-        console.log('displaySeeCodeButton() ran');
-        //User story: The user clicks to see a render of the project.
-    }
-
-    function displaySeeDemoButton() {
-        console.log('displayDemoButton() ran');
-        //User story: The user clicks to see the code for the project they're viewing.
-    }
-
-    function displayBackButton() {
-        console.log('displayBackButton() ran');
-        //User story: The user is able to return to the home screen of the site.
     }
 
     function setUpEventHandlers() {
         //Runs event handlers at page load.
         console.log('setUpEventHandlers() ran');
-        displayProjectsMenu();
-        displayProjectDetailsButton();
-        displayProjectDetailsScreen();
-        displaySeeCodeButton();
-        displaySeeDemoButton();
-        displayBackButton();
+        displayProjects();
     }
     //Runs setUpEventHandlers() at page load.
     $(setUpEventHandlers())
