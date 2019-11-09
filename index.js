@@ -12,26 +12,49 @@ $(document).ready(function () {
                     alt: 'empty'
                 },
             },
+            {
+                name: 'J.K. Rowling-Level Harry Potter Quiz',
+                desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
+                tech: 'HTML, CSS, JavaScript, jQuery',
+                demo: 'empty',
+                code: 'empty',
+                screenshot: {
+                    src: 'empty',
+                    alt: 'empty'
+                },
+            },
+            {
+                name: 'J.K. Rowling-Level Harry Potter Quiz',
+                desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
+                tech: 'HTML, CSS, JavaScript, jQuery',
+                demo: 'empty',
+                code: 'empty',
+                screenshot: {
+                    src: 'empty',
+                    alt: 'empty'
+                },
+            },
         ],
     }
 
-    function renderProjectsMenuCode() {
+
+    function renderProjectsMenuHTML() {
+        console.log('renderProjectsMenuHTML() ran');
         return `
-        <h3>
-            ProjectName
-        </h3>
-        <img alt="">
-            Screenshot
-        </img>
-        <button>
-            View
-        </button>`
+                <h3>
+                    ${STORE.projects[0].name}
+                </h3>
+                <img src="${STORE.projects[0].screenshot.src}" alt="${STORE.projects[0].screenshot.alt}">
+                </img>
+                <button>
+                    View
+                </button>`;
     }
 
     function displayProjectsMenu() {
         console.log('displayProjectsMenu() ran');
         //User story: The user needs to be able to see the projects menu where it'll display all the projects.
-        $('.js-projects').html(renderProjectsMenuCode());
+        $('.js-projects').html(renderProjectsMenuHTML());
     }
 
     function displayProjectDetailsButton() {
