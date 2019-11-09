@@ -10,7 +10,7 @@ $(document).ready(function () {
             {
                 name: 'J.K. Rowling-Level Harry Potter Quiz',
                 desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
-                techUsed: `${TECH.html} ${TECH.javascript} ${TECH.jquery}`,
+                techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
                 demo: 'https://maximus202.github.io/harry-potter-quiz/',
                 code: 'https://github.com/maximus202/harry-potter-quiz',
                 screenshot: {
@@ -36,7 +36,8 @@ $(document).ready(function () {
     function generateProjects(i) {
         console.log('generateProjects() ran');
         return `
-                <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}">
+        <div>        
+        <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}">
                 </img>
                 <h3>
                     ${STORE.projects[i].name}
@@ -47,8 +48,13 @@ $(document).ready(function () {
                 <p>
                     ${STORE.projects[i].desc}
                 </p>
-
-                `;
+                <button type="button" onclick="window.open('${STORE.projects[i].demo}', '_blank')">
+                See Demo
+                </button>
+                <button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')">
+                See Code
+                </button>
+                </div>`;
     }
 
     function displayProjects() {
