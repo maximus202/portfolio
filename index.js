@@ -5,33 +5,11 @@ $(document).ready(function () {
                 name: 'J.K. Rowling-Level Harry Potter Quiz',
                 desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
                 tech: 'HTML, CSS, JavaScript, jQuery',
-                demo: 'empty',
-                code: 'empty',
+                demo: 'https://maximus202.github.io/harry-potter-quiz/',
+                code: 'https://github.com/maximus202/harry-potter-quiz',
                 screenshot: {
-                    src: 'empty',
-                    alt: 'empty'
-                },
-            },
-            {
-                name: 'J.K. Rowling-Level Harry Potter Quiz',
-                desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
-                tech: 'HTML, CSS, JavaScript, jQuery',
-                demo: 'empty',
-                code: 'empty',
-                screenshot: {
-                    src: 'empty',
-                    alt: 'empty'
-                },
-            },
-            {
-                name: 'J.K. Rowling-Level Harry Potter Quiz',
-                desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
-                tech: 'HTML, CSS, JavaScript, jQuery',
-                demo: 'empty',
-                code: 'empty',
-                screenshot: {
-                    src: 'empty',
-                    alt: 'empty'
+                    src: 'https://github.com/maximus202/portfolio/blob/master/harrypotterquizscreenshot.jpg?raw=true',
+                    alt: 'Screenshot image of Harry Potter Quiz start page.'
                 },
             },
         ],
