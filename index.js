@@ -12,17 +12,28 @@ $(document).ready(function () {
                     alt: 'Screenshot image of Harry Potter Quiz start page.'
                 },
             },
+            {
+                name: 'J.K. Rowling-Level Harry Potter Quiz',
+                desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
+                tech: 'HTML, CSS, JavaScript, jQuery',
+                demo: 'https://maximus202.github.io/harry-potter-quiz/',
+                code: 'https://github.com/maximus202/harry-potter-quiz',
+                screenshot: {
+                    src: 'https://github.com/maximus202/portfolio/blob/master/harrypotterquizscreenshot.jpg?raw=true',
+                    alt: 'Screenshot image of Harry Potter Quiz start page.'
+                },
+            },
         ],
     }
 
 
-    function renderProjectsMenuHTML() {
+    function renderProjectsMenuHTML(i) {
         console.log('renderProjectsMenuHTML() ran');
         return `
                 <h3>
-                    ${STORE.projects[0].name}
+                    ${STORE.projects[i].name}
                 </h3>
-                <img src="${STORE.projects[0].screenshot.src}" alt="${STORE.projects[0].screenshot.alt}">
+                <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}">
                 </img>
                 <button>
                     View
@@ -32,7 +43,9 @@ $(document).ready(function () {
     function displayProjectsMenu() {
         console.log('displayProjectsMenu() ran');
         //User story: The user needs to be able to see the projects menu where it'll display all the projects.
-        $('.js-projects').html(renderProjectsMenuHTML());
+        for (let i = 0; i < STORE.projects.length; i++) {
+            $('.js-projects').append(renderProjectsMenuHTML(i));
+        }
     }
 
     function displayProjectDetailsButton() {
