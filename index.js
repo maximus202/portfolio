@@ -36,25 +36,24 @@ $(document).ready(function () {
     function generateProjects(i) {
         console.log('generateProjects() ran');
         return `
-        <div>        
-        <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}">
-                </img>
-                <h3>
-                    ${STORE.projects[i].name}
-                </h3>
-                <div>
-                    ${STORE.projects[i].techUsed}
-                </div>
-                <p>
-                    ${STORE.projects[i].desc}
-                </p>
-                <button type="button" onclick="window.open('${STORE.projects[i].demo}', '_blank')">
+        <section>        
+            <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}">
+            <h3>
+                ${STORE.projects[i].name}
+            </h3>
+            <div class="tech-used">
+                ${STORE.projects[i].techUsed}
+            </div>
+            <p>
+                ${STORE.projects[i].desc}
+            </p>
+            <button type="button" onclick="window.open('${STORE.projects[i].demo}', '_blank')">
                 See Demo
-                </button>
-                <button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')">
+            </button>
+            <button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')">
                 See Code
-                </button>
-                </div>`;
+            </button>
+        </section>`;
     }
 
     function displayProjects() {
