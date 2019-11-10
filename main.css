@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+    font-family: 'Six Caps', sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+nav {
+    font-size: 25px;
+}
+
+p, ul, footer, button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+footer {
+    font-size: 14px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: 600;
+}
