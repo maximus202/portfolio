@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.logo img {
+    width: 60px;
+}
+
+div.signature {
+    position: relative;
+    display: flex;
+}
+
+div.signature img {
+    position: fixed;
+    width: 100px;
+    bottom: 80px;
+    left: -30px;
+    transform: rotate(-90deg);
+    opacity: 0.4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    height: 50px;
+    text-transform: uppercase;
+}
