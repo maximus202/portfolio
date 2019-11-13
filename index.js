@@ -27,7 +27,6 @@ $(document).ready(function () {
         return `
         <section class="project">        
             <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}" class="screenshot">
-            <div class="project-details">
             <h3>
                 ${STORE.projects[i].name}
             </h3>
@@ -43,7 +42,6 @@ $(document).ready(function () {
             <button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')" class="class-button">
                 See Code
             </button>
-            </div>
         </section>`;
     }
 
