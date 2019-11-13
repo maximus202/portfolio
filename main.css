@@ -4,6 +4,8 @@
 
 body {
     background-color: #EEF0F2;
+    background-image: url('https://github.com/maximus202/portfolio/blob/style/watercolorimage.png?raw=true');
+    background-repeat: no-repeat;
 }
 
 main {
@@ -44,6 +46,8 @@ h1, h2 {
 h1 {
     font-size: 48px;
     line-height: 58px;
+    text-shadow: 1.5px 1.5px black;
+    color: #EEF0F2;
 }
 
 h2 {
