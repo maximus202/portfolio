@@ -37,17 +37,16 @@ header {
 
 h1, h2 {
     text-transform: uppercase;
-    text-align: center;
     font-family: 'Six Caps', sans-serif;
     font-weight: 400;
     color: #4C4F56;
+    text-align: center;
 }
 
 h1 {
     font-size: 48px;
     line-height: 58px;
-    text-shadow: 1.5px 1.5px black;
-    color: #EEF0F2;
+    background: rgba(255, 255, 255, 0.63);
 }
 
 h2 {
@@ -173,8 +172,9 @@ button.class-button {
     header {
         margin-top: 100px;
         margin-bottom: 400px;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
     }
 
     div.signature img {

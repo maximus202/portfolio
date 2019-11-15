@@ -9,7 +9,7 @@ $(document).ready(function () {
         projects: [
             {
                 name: 'J.K. Rowling-Level Harry Potter Quiz',
-                desc: 'How big of a Harry Potter fan are you really? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
+                desc: 'How big of a Harry Potter fan are you? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
                 techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
                 demo: 'https://maximus202.github.io/harry-potter-quiz/',
                 code: 'https://github.com/maximus202/harry-potter-quiz',
