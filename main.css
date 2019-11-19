@@ -71,9 +71,9 @@ nav a, li {
 
 nav a {
     font-family: 'Six Caps', sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 45px;
     color: #4C4F56;
 }
 
@@ -147,14 +147,14 @@ button {
 }
 
 button.demo-button {
-    border: 1px solid #9AC4CE;
+    border: 1px solid #3774A9;
     background: #EEF0F2;
-    color: #9AC4CE;
+    color: #3774A9;
 }
 
 button.class-button {
-    background-color: #9AC4CE;
-    border: 1px solid #9AC4CE;
+    background-color: #3774A9;
+    border: 1px solid #3774A9;
     color: #EEF0F2;
 }
 
