@@ -147,14 +147,14 @@ button {
 }
 
 button.demo-button {
-    border: 1px solid #3774A9;
+    border: 1px solid #332C36;
     background: #EEF0F2;
-    color: #3774A9;
+    color: #332C36;
 }
 
 button.class-button {
-    background-color: #3774A9;
-    border: 1px solid #3774A9;
+    background-color: #332C36;
+    border: 1px solid #332C36;
     color: #EEF0F2;
 }
 
