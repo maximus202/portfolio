@@ -23,7 +23,6 @@ $(document).ready(function () {
 
 
     function generateProjects(i) {
-        console.log('generateProjects() ran');
         return `
         <section class="project">        
             <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}" class="screenshot">
@@ -46,7 +45,6 @@ $(document).ready(function () {
     }
 
     function displayProjects() {
-        console.log('displayProjects() ran');
         //User story: The user needs to be able to see the projects menu where it'll display all the projects.
         for (let i = 0; i < STORE.projects.length; i++) {
             $('.js-projects').append(generateProjects(i));
@@ -55,7 +53,6 @@ $(document).ready(function () {
 
     function setUpEventHandlers() {
         //Runs event handlers at page load.
-        console.log('setUpEventHandlers() ran');
         displayProjects();
     }
     //Runs setUpEventHandlers() at page load.
