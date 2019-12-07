@@ -8,6 +8,17 @@ $(document).ready(function () {
     const STORE = {
         projects: [
             {
+                name: 'Cinema Fetch',
+                desc: 'The search engine made for cinephiles. Make highly-targeted searches to find similar films to the ones you love.',
+                techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
+                demo: 'https://maximus202.github.io/cinema-fetch/',
+                code: 'https://github.com/maximus202/cinema-fetch',
+                screenshot: {
+                    src: 'https://github.com/maximus202/cinema-fetch/blob/master/laptop-and-mobile-screenshots.jpg?raw=true',
+                    alt: 'Image of laptop and mobile device with screenshots of Cinema Fetch.'
+                },
+            },
+            {
                 name: 'J.K. Rowling-Level Harry Potter Quiz',
                 desc: 'How big of a Harry Potter fan are you? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
                 techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
