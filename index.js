@@ -4,17 +4,32 @@ $(document).ready(function () {
         css: '<i class="devicon-css3-plain-wordmark colored"></i>',
         javascript: '<i class="devicon-javascript-plain colored"></i>',
         jquery: '<i class="devicon-jquery-plain-wordmark colored"></i>',
+        react: '<i class="devicon-react-original-wordmark colored"></i>',
+        node: '<i class="devicon-nodejs-plain-wordmark colored"></i>',
+        express: '<i class="devicon-express-original-wordmark colored"></i>',
+        postgresql: '<i class="devicon-postgresql-plain-wordmark colored"></i>',
     }
     const STORE = {
         projects: [
             {
+                name: 'Contestphyte',
+                desc: 'An app targeted towards small business owners and influencers that allows them to run online contests to boost brand awareness and engagement.',
+                techUsed: `${TECH.javascript} ${TECH.react} ${TECH.node} ${TECH.express} ${TECH.postgresql} ${TECH.html} ${TECH.css}`,
+                demo: 'https://contestphyte-app.now.sh/home',
+                code: 'https://github.com/maximus202/contestphyte-app',
+                screenshot: {
+                    src: 'https://github.com/maximus202/portfolio/blob/master/contestphytescreenshot.jpg?raw=true',
+                    alt: 'Image of the Contestphyte home screen.'
+                }
+            },
+            {
                 name: 'ProductionWeaver',
                 desc: 'An app designed for independent filmmakers. ProductionWeaver is here to provide indie filmmakers a truly cost effective way to manage productions from script breakdown, shot listing, budgeting, etc.',
-                techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
+                techUsed: `${TECH.javascript} ${TECH.react} ${TECH.node} ${TECH.express} ${TECH.postgresql} ${TECH.html} ${TECH.css}`,
                 demo: 'https://productionweaver-app.now.sh/home',
                 code: 'https://github.com/maximus202/productionweaver-app',
                 screenshot: {
-                    src: 'https://github.com/maximus202/productionweaver-app/raw/master/public/Home.png?raw=true',
+                    src: 'https://github.com/maximus202/portfolio/blob/master/productionweaverscreenshot.jpg?raw=true',
                     alt: 'Image of the ProductionWeaver home screen.'
                 }
             },
