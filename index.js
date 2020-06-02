@@ -40,8 +40,8 @@ $(document).ready(function () {
                 demo: 'https://maximus202.github.io/cinema-fetch/',
                 code: 'https://github.com/maximus202/cinema-fetch',
                 screenshot: {
-                    src: 'https://github.com/maximus202/cinema-fetch/blob/master/laptop-and-mobile-screenshots.jpg?raw=true',
-                    alt: 'Image of laptop and mobile device with screenshots of Cinema Fetch.'
+                    src: 'https://github.com/maximus202/portfolio/blob/master/cinemafetchscreenshot.png?raw=true',
+                    alt: 'Image of search done using Cinema Fetch.'
                 },
             },
             {
