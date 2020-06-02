@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     background-color: #EEF0F2;
     background-image: url('https://github.com/maximus202/portfolio/blob/style/watercolorimage.png?raw=true');
@@ -210,9 +206,5 @@ button.class-button {
         width: 50%;
         float: left;
         margin-right: 30px;
-    }
-
-    section.project {
-        margin-bottom: 150px;
     }
 }

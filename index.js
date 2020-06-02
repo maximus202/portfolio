@@ -8,6 +8,17 @@ $(document).ready(function () {
     const STORE = {
         projects: [
             {
+                name: 'ProductionWeaver',
+                desc: 'An app designed for independent filmmakers. ProductionWeaver is here to provide indie filmmakers a truly cost effective way to manage productions from script breakdown, shot listing, budgeting, etc.',
+                techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
+                demo: 'https://productionweaver-app.now.sh/home',
+                code: 'https://github.com/maximus202/productionweaver-app',
+                screenshot: {
+                    src: 'https://github.com/maximus202/productionweaver-app/raw/master/public/Home.png?raw=true',
+                    alt: 'Image of the ProductionWeaver home screen.'
+                }
+            },
+            {
                 name: 'Cinema Fetch',
                 desc: 'The search engine made for cinephiles. Make highly-targeted searches to find similar films to the ones you love.',
                 techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
@@ -47,10 +58,10 @@ $(document).ready(function () {
                 ${STORE.projects[i].desc}
             </p>
             <button type="button" onclick="window.open('${STORE.projects[i].demo}', '_blank')" class="demo-button">
-                See Demo
+                Live App
             </button>
             <button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')" class="class-button">
-                See Code
+                Github
             </button>
         </section>`;
     }
