@@ -13,7 +13,7 @@ $(document).ready(function () {
         projects: [
             {
                 name: 'Contestphyte',
-                desc: 'An app targeted towards small business owners and influencers that allows them to run online contests to boost brand awareness and engagement.',
+                desc: 'In past marketing projects, I used contests and giveaways to build brand awareness which I found to be a great way to get exposure in a short amount of time. Contestphyte is an app I created for small business owners that allows them to do just that; run contests while incentivizing participants to share the contests for additional entry points.',
                 techUsed: `${TECH.javascript} ${TECH.react} ${TECH.node} ${TECH.express} ${TECH.postgresql} ${TECH.html} ${TECH.css}`,
                 demo: 'https://contestphyte-app.now.sh/home',
                 code: 'https://github.com/maximus202/contestphyte-app',
@@ -24,7 +24,7 @@ $(document).ready(function () {
             },
             {
                 name: 'ProductionWeaver',
-                desc: 'An app designed for independent filmmakers. ProductionWeaver is here to provide indie filmmakers a truly cost effective way to manage productions from script breakdown, shot listing, budgeting, etc.',
+                desc: 'As an independent filmmaker hopeful and someone who knows many other indie filmmakers, an expensive and tedious task is production management. There are so many things to keep track of in a production and often times, these management tools can be very expensive. I created ProductionWeaver to provide filmmakers an effective way to manage their productions right from their phone or computer, no matter the scope of the projects.',
                 techUsed: `${TECH.javascript} ${TECH.react} ${TECH.node} ${TECH.express} ${TECH.postgresql} ${TECH.html} ${TECH.css}`,
                 demo: 'https://productionweaver-app.now.sh/home',
                 code: 'https://github.com/maximus202/productionweaver-app',
@@ -35,7 +35,7 @@ $(document).ready(function () {
             },
             {
                 name: 'Cinema Fetch',
-                desc: 'The search engine made for cinephiles. Make highly-targeted searches to find similar films to the ones you love.',
+                desc: 'Cinema Fetch is the search engine for cinephiles. Cinephiles often times search the trenches of film libraries to find hidden gems. It\'s tough to find these gems when there is a slew of films that don\'t quite meet what you\'re looking for and search engines are limited. Work your way through decades of cinema using Cinema Fetch with its many filters to find your next watch!',
                 techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
                 demo: 'https://maximus202.github.io/cinema-fetch/',
                 code: 'https://github.com/maximus202/cinema-fetch',

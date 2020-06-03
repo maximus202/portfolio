@@ -47,8 +47,8 @@ h1 {
 
 h2 {
     margin-bottom: 50px;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 48px;
+    line-height: 58px;
 }
 
 nav, ul {
@@ -94,17 +94,17 @@ img.screenshot {
 h3 {
     text-transform: uppercase;
     font-family: 'Six Caps', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 400;
-    line-height: 38px;
+    line-height: 48px;
     color: #4C4F56;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 19px;
+    line-height: 1.4;
     color: #4C4F56;
 }
 
