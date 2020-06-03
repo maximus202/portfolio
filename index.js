@@ -18,7 +18,7 @@ $(document).ready(function () {
                 demo: 'https://contestphyte-app.now.sh/home',
                 code: 'https://github.com/maximus202/contestphyte-app',
                 screenshot: {
-                    src: 'https://github.com/maximus202/portfolio/blob/master/contestphytescreenshot.jpg?raw=true',
+                    src: 'https://github.com/maximus202/portfolio/blob/master/contestphytescreenshot2.jpg?raw=true',
                     alt: 'Image of the Contestphyte home screen.'
                 }
             },
