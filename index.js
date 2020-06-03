@@ -13,35 +13,35 @@ $(document).ready(function () {
         projects: [
             {
                 name: 'Contestphyte',
-                desc: 'In past marketing projects, I used contests and giveaways to build brand awareness which I found to be a great way to get exposure in a short amount of time. Contestphyte is an app I created for small business owners that allows them to do just that; run contests while incentivizing participants to share the contests for additional entry points.',
+                desc: 'In past marketing projects, I used contests to build brand awareness and get exposure in a short amount of time. Contestphyte is an app I created that allows small businesses to do just that; run contests that incentivize participants to share for additional entries.',
                 techUsed: `${TECH.javascript} ${TECH.react} ${TECH.node} ${TECH.express} ${TECH.postgresql} ${TECH.html} ${TECH.css}`,
                 demo: 'https://contestphyte-app.now.sh/home',
                 code: 'https://github.com/maximus202/contestphyte-app',
                 screenshot: {
                     src: 'https://github.com/maximus202/portfolio/blob/master/contestphytescreenshot2.jpg?raw=true',
-                    alt: 'Image of the Contestphyte home screen.'
+                    alt: 'Image of the Contestphyte screenshots.'
                 }
             },
             {
                 name: 'ProductionWeaver',
-                desc: 'As an independent filmmaker hopeful and someone who knows many other indie filmmakers, an expensive and tedious task is production management. There are so many things to keep track of in a production and often times, these management tools can be very expensive. I created ProductionWeaver to provide filmmakers an effective way to manage their productions right from their phone or computer, no matter the scope of the projects.',
+                desc: 'The independent filmmaking community can agree on this, an expensive and tedious task is production management. There are so many elements to keep track of and often times, these tools can be very expensive. I created ProductionWeaver to provide filmmakers a simple app to manage their productions, no matter the scope.',
                 techUsed: `${TECH.javascript} ${TECH.react} ${TECH.node} ${TECH.express} ${TECH.postgresql} ${TECH.html} ${TECH.css}`,
                 demo: 'https://productionweaver-app.now.sh/home',
                 code: 'https://github.com/maximus202/productionweaver-app',
                 screenshot: {
-                    src: 'https://github.com/maximus202/portfolio/blob/master/productionweaverscreenshot.jpg?raw=true',
-                    alt: 'Image of the ProductionWeaver home screen.'
+                    src: 'https://github.com/maximus202/portfolio/blob/master/producionweaverscreenshot2.png?raw=true',
+                    alt: 'Image of the ProductionWeaver screenshots.'
                 }
             },
             {
                 name: 'Cinema Fetch',
-                desc: 'Cinema Fetch is the search engine for cinephiles. Cinephiles often times search the trenches of film libraries to find hidden gems. It\'s tough to find these gems when there is a slew of films that don\'t quite meet what you\'re looking for and search engines are limited. Work your way through decades of cinema using Cinema Fetch with its many filters to find your next watch!',
+                desc: 'Cinephiles often times search the trenches of film libraries to find hidden gems. It\'s tough to find these gems when there is a slew of films that don\'t quite meet what you\'re looking for and search engines are limited. Work your way through decades of cinema using Cinema Fetch to find your next watch!',
                 techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
                 demo: 'https://maximus202.github.io/cinema-fetch/',
                 code: 'https://github.com/maximus202/cinema-fetch',
                 screenshot: {
-                    src: 'https://github.com/maximus202/portfolio/blob/master/cinemafetchscreenshot.png?raw=true',
-                    alt: 'Image of search done using Cinema Fetch.'
+                    src: 'https://github.com/maximus202/portfolio/blob/master/cinemafetchscreenshot2.jpg?raw=true',
+                    alt: 'Image of Cinema Fetch screenshots.'
                 },
             },
             {
@@ -51,8 +51,8 @@ $(document).ready(function () {
                 demo: 'https://maximus202.github.io/harry-potter-quiz/',
                 code: 'https://github.com/maximus202/harry-potter-quiz',
                 screenshot: {
-                    src: 'https://github.com/maximus202/portfolio/blob/master/harrypotterquizscreenshot.jpg?raw=true',
-                    alt: 'Screenshot image of Harry Potter Quiz start page.'
+                    src: 'https://github.com/maximus202/portfolio/blob/master/hpquizscreenshot.jpg?raw=true',
+                    alt: 'Image of the Harry Potter quiz screenshots.'
                 },
             },
         ],
