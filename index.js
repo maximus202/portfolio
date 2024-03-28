@@ -12,6 +12,16 @@ $(document).ready(function () {
     const STORE = {
         projects: [
             {
+                name: 'Walletbadger',
+                desc: 'Walletbadger is a user-friendly personal budgeting and finance tracking app, empowering individuals to effortlessly manage their financial health. With intuitive features and real-time insights, users can easily track expenses, set budgets, and take control of their finances with confidence.',
+                techUsed: `${TECH.javascript} {TECH.html} {TECH.css} ${TECH.php} ${TECH.mySQL}`,
+                demo: 'https://walletbadger.com/home',
+                screenshot: {
+                    src: '',
+                    alt: 'Image of the Walletbadger screenshots.'
+                }
+            },
+            {
                 name: 'Contestphyte',
                 desc: 'In past marketing projects, I used contests to build brand awareness and get exposure in a short amount of time. Contestphyte is an app I created that allows small businesses to do just that; run contests that incentivize participants to share for additional entries.',
                 techUsed: `${TECH.javascript} ${TECH.react} ${TECH.node} ${TECH.express} ${TECH.postgresql} ${TECH.html} ${TECH.css}`,
@@ -33,28 +43,28 @@ $(document).ready(function () {
                     alt: 'Image of the ProductionWeaver screenshots.'
                 }
             },
-            {
-                name: 'Cinema Fetch',
-                desc: 'Cinephiles often times search the trenches of film libraries to find hidden gems. It\'s tough to find these gems when there is a slew of films that don\'t quite meet what you\'re looking for and search engines are limited. Work your way through decades of cinema using Cinema Fetch to find your next watch!',
-                techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
-                demo: 'https://maximus202.github.io/cinema-fetch/',
-                code: 'https://github.com/maximus202/cinema-fetch',
-                screenshot: {
-                    src: 'https://github.com/maximus202/portfolio/blob/master/cinemafetchscreenshot2.jpg?raw=true',
-                    alt: 'Image of Cinema Fetch screenshots.'
-                },
-            },
-            {
-                name: 'J.K. Rowling-Level Harry Potter Quiz',
-                desc: 'How big of a Harry Potter fan are you? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
-                techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
-                demo: 'https://maximus202.github.io/harry-potter-quiz/',
-                code: 'https://github.com/maximus202/harry-potter-quiz',
-                screenshot: {
-                    src: 'https://github.com/maximus202/portfolio/blob/master/hpquizscreenshot.jpg?raw=true',
-                    alt: 'Image of the Harry Potter quiz screenshots.'
-                },
-            },
+            // {
+            //     name: 'Cinema Fetch',
+            //     desc: 'Cinephiles often times search the trenches of film libraries to find hidden gems. It\'s tough to find these gems when there is a slew of films that don\'t quite meet what you\'re looking for and search engines are limited. Work your way through decades of cinema using Cinema Fetch to find your next watch!',
+            //     techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
+            //     demo: 'https://maximus202.github.io/cinema-fetch/',
+            //     code: 'https://github.com/maximus202/cinema-fetch',
+            //     screenshot: {
+            //         src: 'https://github.com/maximus202/portfolio/blob/master/cinemafetchscreenshot2.jpg?raw=true',
+            //         alt: 'Image of Cinema Fetch screenshots.'
+            //     },
+            // },
+            // {
+            //     name: 'J.K. Rowling-Level Harry Potter Quiz',
+            //     desc: 'How big of a Harry Potter fan are you? If you can answer these 5 questions, you may crown yourself as Potterhead Level: J.K. Rowling.',
+            //     techUsed: `${TECH.html} ${TECH.css} ${TECH.javascript} ${TECH.jquery}`,
+            //     demo: 'https://maximus202.github.io/harry-potter-quiz/',
+            //     code: 'https://github.com/maximus202/harry-potter-quiz',
+            //     screenshot: {
+            //         src: 'https://github.com/maximus202/portfolio/blob/master/hpquizscreenshot.jpg?raw=true',
+            //         alt: 'Image of the Harry Potter quiz screenshots.'
+            //     },
+            // }
         ],
     }
 
