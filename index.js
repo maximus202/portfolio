@@ -87,7 +87,7 @@ $(document).ready(function () {
             <button type="button" onclick="window.open('${STORE.projects[i].demo}', '_blank')" class="demo-button">
                 Live App
             </button>
-            <button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')" class="class-button">
+            (STORE.projects[i].code) && <button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')" class="class-button">
                 Github
             </button>
         </section>`;
