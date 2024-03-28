@@ -8,13 +8,15 @@ $(document).ready(function () {
         node: '<i class="devicon-nodejs-plain-wordmark colored"></i>',
         express: '<i class="devicon-express-original-wordmark colored"></i>',
         postgresql: '<i class="devicon-postgresql-plain-wordmark colored"></i>',
+        php: '<i class="devicon-php-plain colored"></i>',
+        mysql: '<i class="devicon-mysql-plain-wordmark colored"></i>'
     }
     const STORE = {
         projects: [
             {
                 name: 'Walletbadger',
                 desc: 'Walletbadger is a user-friendly personal budgeting and finance tracking app, empowering individuals to effortlessly manage their financial health. With intuitive features and real-time insights, users can easily track expenses, set budgets, and take control of their finances with confidence.',
-                techUsed: `${TECH.javascript} {TECH.html} {TECH.css} ${TECH.php} ${TECH.mySQL}`,
+                techUsed: `${TECH.javascript} {TECH.html} {TECH.css} ${TECH.php} ${TECH.mysql}`,
                 demo: 'https://walletbadger.com/home',
                 screenshot: {
                     src: 'https://github.com/maximus202/portfolio/blob/2024-updates/wb-screenshot.png',
