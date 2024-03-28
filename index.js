@@ -17,7 +17,7 @@ $(document).ready(function () {
                 techUsed: `${TECH.javascript} {TECH.html} {TECH.css} ${TECH.php} ${TECH.mySQL}`,
                 demo: 'https://walletbadger.com/home',
                 screenshot: {
-                    src: '',
+                    src: 'https://github.com/maximus202/portfolio/blob/2024-updates/wb-screenshot.png',
                     alt: 'Image of the Walletbadger screenshots.'
                 }
             },
