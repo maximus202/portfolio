@@ -16,10 +16,10 @@ $(document).ready(function () {
             {
                 name: 'Walletbadger',
                 desc: 'Walletbadger is a user-friendly personal budgeting and finance tracking app, empowering individuals to effortlessly manage their financial health. With intuitive features and real-time insights, users can easily track expenses, set budgets, and take control of their finances with confidence.',
-                techUsed: `${TECH.javascript} {TECH.html} {TECH.css} ${TECH.php} ${TECH.mysql}`,
+                techUsed: `${TECH.javascript} ${TECH.html} ${TECH.css} ${TECH.php} ${TECH.mysql}`,
                 demo: 'https://walletbadger.com/home',
                 screenshot: {
-                    src: 'https://github.com/maximus202/portfolio/blob/2024-updates/wb-screenshot.png',
+                    src: 'https://github.com/maximus202/portfolio/blob/master/wb-screenshot.png?raw=true',
                     alt: 'Image of the Walletbadger screenshots.'
                 }
             },
