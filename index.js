@@ -18,6 +18,7 @@ $(document).ready(function () {
                 desc: 'Walletbadger is a user-friendly personal budgeting and finance tracking app, empowering individuals to effortlessly manage their financial health. With intuitive features and real-time insights, users can easily track expenses, set budgets, and take control of their finances with confidence.',
                 techUsed: `${TECH.javascript} ${TECH.html} ${TECH.css} ${TECH.php} ${TECH.mysql}`,
                 demo: 'https://walletbadger.com/home',
+                code: 'https://github.com/maximus202',
                 screenshot: {
                     src: 'https://github.com/maximus202/portfolio/blob/master/wb-screenshot.png?raw=true',
                     alt: 'Image of the Walletbadger screenshots.'
@@ -72,8 +73,6 @@ $(document).ready(function () {
 
 
     function generateProjects(i) {
-        const githubButton = (STORE.projects[i].code) && '<button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')" class="class-button">Github</button>';
-        
         return `
         <section class="project">        
             <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}" class="screenshot">
@@ -89,7 +88,9 @@ $(document).ready(function () {
             <button type="button" onclick="window.open('${STORE.projects[i].demo}', '_blank')" class="demo-button">
                 Live App
             </button>
-            ${githubButton}
+            <button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')" class="class-button">
+                Github
+            </button>
         </section>`;
     }
 
