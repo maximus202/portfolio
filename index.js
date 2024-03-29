@@ -72,6 +72,8 @@ $(document).ready(function () {
 
 
     function generateProjects(i) {
+        const githubButton = (STORE.projects[i].code) && '<button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')" class="class-button">Github</button>';
+        
         return `
         <section class="project">        
             <img src="${STORE.projects[i].screenshot.src}" alt="${STORE.projects[i].screenshot.alt}" class="screenshot">
@@ -87,9 +89,7 @@ $(document).ready(function () {
             <button type="button" onclick="window.open('${STORE.projects[i].demo}', '_blank')" class="demo-button">
                 Live App
             </button>
-            (STORE.projects[i].code) && <button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')" class="class-button">
-                Github
-            </button>
+            ${githubButton}
         </section>`;
     }
 
