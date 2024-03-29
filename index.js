@@ -88,10 +88,17 @@ $(document).ready(function () {
             <button type="button" onclick="window.open('${STORE.projects[i].demo}', '_blank')" class="demo-button">
                 Live App
             </button>
-            <button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')" class="class-button">
-                Github
-            </button>
+            ${getGithubButton(i)}
         </section>`;
+    }
+
+    function getGithubButton(i) {
+        if (STORE.projects[i].code) {
+            return `<button type="button" onclick="window.open('${STORE.projects[i].code}', '_blank')" class="class-button">
+            Github
+        </button>`;
+        }
+        return '';
     }
 
     function displayProjects() {
